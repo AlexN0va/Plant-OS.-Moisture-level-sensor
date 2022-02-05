@@ -1,0 +1,56 @@
+
+
+
+
+const int AirValue = 520;   
+const int WaterValue = 260;  
+int intervals = (AirValue - WaterValue)/3;   
+int soilMoistureValue = 0;
+int soilMoisturePer = 0;
+void setup() {
+  Serial.begin(9600); // open serial port, set the baud rate to 9600 bps
+}
+void loop() {
+  
+soilMoistureValue = analogRead(A0);  
+
+Serial.print(soilMoistureValue);//put Sensor insert into soil
+
+
+soilMoisturePer = map(soilMoistureValue, AirValue, WaterValue, 0, 100);
+
+if(soilMoistureValue > WaterValue && soilMoistureValue < (WaterValue + intervals)) 
+{ 
+  if(soilMoisturePer >= 100)
+  {
+    soilMoisturePer = 100;
+    Serial.print(soilMoisturePer);
+    Serial.print("%: ");
+    Serial.println("Very Wet"); 
+    
+  }
+  else
+  {
+    Serial.println("Very Wet"); 
+    Serial.print(soilMoisturePer);
+    Serial.print("%: ");
+  }
+  
+  
+} 
+  
+else if(soilMoistureValue > (WaterValue + intervals) && soilMoistureValue < (AirValue - intervals))
+{
+  Serial.print(soilMoisturePer);
+  Serial.print("%: ");
+  Serial.println("Wet");
+}
+else if(soilMoistureValue < AirValue && soilMoistureValue > (AirValue - intervals))
+{
+  Serial.print(soilMoisturePer);
+  Serial.print("%: ");
+  Serial.println("Dry");
+}
+delay(100);
+}
+
