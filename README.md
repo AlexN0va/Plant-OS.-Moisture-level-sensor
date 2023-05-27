@@ -12,8 +12,8 @@ This simple project gives you opportunity to do that with two main components
 Have you ever wanted to take extra care fo your plants in a easy manner? This is a little project I've been working on. Its purpose is to indicate the moiusture level of plant soil and display that through a website and LEDs. This project uses a ESP-32 to host a HTML page and uses WS2812B LED strips to indicate the moisture level through an LED. 
 
 #### project
-![This is an image](images/IMG_3326.PNG)
-<img src="images/IMG_3326.PNG" width="100" height="100" />
+
+<img src="images/IMG_3326.PNG" alt="image of the project">
 
 #### HTML page
 ![This is an image](images/IMG_3170.PNG )
