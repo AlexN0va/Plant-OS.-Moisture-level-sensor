@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: #03112e;
+  color: white;
+  height: 125px;
+  display: flex;  /*we shoudl probrably have a flex-direcxtion. */
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  
+
+}
+header .title{
+  justify-content: center;
+}
+
+/* using flex box the parent is the container and must have display:flex */
+.flexcontainer {
+display: flex;
+/* which direction to layout items/children ? 
+ set to row if child items are the columns
+*/
+}
+.flexcontainer h2{
+flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}           
+/* children items needs rules if each needs diff widths */
+.myleft {
+/* items in a flexbox use 2 css properties to control their width */
+flex-basis:25%;
+max-width:25%;
+padding-right:10px;
+text-align: center;
+padding-top: 20px;
+}
+.mymiddle {
+flex-basis:50%;
+max-width:50%;
+text-align: center;
+padding-top: 20px;
+}
+.mymiddle img{
+  padding: 20px;
+  width: 80%;
+  height: 75%;
+  float: right;
+}
+.myright {
+flex-basis:25%;
+max-width:25%;
+padding-left:10px;
+text-align: center;
+padding-top: 20px;
+}

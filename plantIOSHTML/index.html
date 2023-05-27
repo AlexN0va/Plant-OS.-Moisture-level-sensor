@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Module 12</title>
+    <style>
+body{
+  background-color: ghostwhite;
+
+}
+.header{
+  background-color: #033607;
+  color: white;
+  height: 125px;
+  display: flex;  /*we shoudl probrably have a flex-direcxtion. */
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+  border-radius: 15px;
+  
+
+}
+/* using flex box the parent is the container and must have display:flex */
+.flexcontainer {
+display: block;
+/* which direction to layout items/children ? 
+ set to row if child items are the columns
+*/
+}
+.flexcontainer h2{
+flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}           
+/* children items needs rules if each needs diff widths */
+.myleft {
+/* items in a flexbox use 2 css properties to control their width */
+padding-right:10px;
+text-align: center;
+padding-top: 20px;
+border: 2px  solid #033607;
+border-radius: 15px ;
+margin: 20px 10px 10px 10px;
+}
+.mymiddle {
+
+text-align: center;
+padding: 20px;
+border: 2px  solid #033607;
+border-radius: 15px ;
+margin: 20px 10px 10px 10px;
+
+}
+.myright {
+
+padding-left:10px;
+text-align: center;
+padding-top: 20px;
+border: 2px  solid #033607;
+border-radius: 15px ;
+margin: 20px 10px 10px 10px;
+}
+ 
+  </style>
+    
+  </head>
+  <body>
+    <header class="header">  
+      <div class="title">
+      <h1>Plant-OS</h1>
+      </div>
+    </header>
+    <section class="flexcontainer">
+            <aside class="myleft">
+                <h2>Summary</h2>
+                <p> Muhlenbergia rigens, commonly known as deergrass, is a warm season perennial bunchgrass. It is found in sandy or well-drained soils below 7,000 feet in elevation in the Southwestern United States and parts of Mexico. It is often used as a decorational plant </p>
+            </aside>
+            <article class="mymiddle">
+                <h2>Architecture</h2>
+                <p> </p>
+            </article>
+            <aside class="myright">
+                <h2>Visual</h2>
+                <p> </p>
+            </aside>
+        </section>
+  </body>
+</html>
