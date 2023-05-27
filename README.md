@@ -13,10 +13,10 @@ Have you ever wanted to take extra care fo your plants in a easy manner? This is
 
 #### project
 ![This is an image](images/IMG_3326.PNG)
-
+<img src="images/IMG_3326.PNG" width="100" height="100" />
 
 #### HTML page
-![This is an image](images/IMG_3170.PNG =250x250)
+![This is an image](images/IMG_3170.PNG )
 
 
 #### View a demonstration here...
