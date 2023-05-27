@@ -16,7 +16,7 @@ Have you ever wanted to take extra care fo your plants in a easy manner? This is
 
 
 #### HTML page
-![This is an image]([https://github.com/AlexN0va/AnimalPageWebsite/blob/main/Screenshot%202023-02-06%20185011.png](https://github.com/AlexN0va/Plant-OS.-Moisture-level-sensor/blob/main/images/IMG_3170.PNG))
+![This is an image](images/IMG_3326.PNG)
 
 
 #### View a demonstration here...
