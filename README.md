@@ -16,7 +16,7 @@ Have you ever wanted to take extra care fo your plants in a easy manner? This is
 <img src="images/IMG_3326.PNG" alt="image of the project">
 
 #### HTML page
-![This is an image](images/IMG_3170.PNG )
+
 <img src="images/IMG_3170.PNG " alt="image of the HTML page" width="300" height="700">
 
 
