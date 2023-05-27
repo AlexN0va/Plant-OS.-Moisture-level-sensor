@@ -16,7 +16,7 @@ Have you ever wanted to take extra care fo your plants in a easy manner? This is
 
 
 #### HTML page
-![This is an image](images/IMG_3170.PNG)
+![This is an image](images/IMG_3170.PNG =250x250)
 
 
 #### View a demonstration here...
