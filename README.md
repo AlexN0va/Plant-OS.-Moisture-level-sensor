@@ -25,8 +25,8 @@ https://youtu.be/pCjIZ8a8sCA
   margin-right: auto;" >
 <img src="images/Screenshot 2023-05-27 194609.png" alt="image of the project" width="600" height="400" style="border:4px solid #1b6b6f; padding:15px;   display: block; margin-left: auto;
   margin-right: auto;">
-
-
+<img src="images/Screenshot 2023-05-27 205227.png" alt="image of the project" width="600" height="400" style="border:4px solid #1b6b6f; padding:15px;   display: block; margin-left: auto;
+  margin-right: auto;">
 
 
 ### HTML page
