@@ -22,7 +22,7 @@ https://youtu.be/pCjIZ8a8sCA
 ### project
 
 <img src="images/IMG_3326.PNG" alt="image of the project">
-<img src="images/Screenshot 2023-05-27 194609.png" alt="image of the project" width="400" height="300">
+<img src="images/Screenshot 2023-05-27 194609.png" alt="image of the project" width="600" height="500">
 
 
 ### HTML page
