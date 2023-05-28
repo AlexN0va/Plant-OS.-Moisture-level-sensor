@@ -1,6 +1,6 @@
 # LED-indicating-Moisture
 
-#### Materials
+### Materials
 This simple project gives you opportunity to do that with two main components 
   1. ESP-32
   2. WS2812B LED strips
